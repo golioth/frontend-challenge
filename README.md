@@ -17,15 +17,22 @@ These are the high level requirements for the system:
 
 Feel free to add or change things on top of that idea. For example, you can register other attributes of the plant, show charts, simulate real time data changes, etc. For the current weather, you can get user location from the browser and use a third party API for weather info.
 
-Share your solution via URL to your git repository and would be cool to either deploy it somewhere or send a video of it working. Don’t need to voice over on top of it or do anything fancy. Loom is a nice tool for that.
+### Technical Requirements
 
-### Requirements
-
-- React
-- State Management ( Redux, Hooks, MobX, etc )
+- React (preferably Typescript, but optional)
+- State Management (MobX, Redux, Hooks, etc)
 - CSS (styled-components, CSS modules, or plain CSS/SASS/LESS)
-- For the backend, you can simulate using something like a backend as a service solutions like Firebase, AWS Amplify, Hasura, DGraph or just local with tools like Mirajs and Json-server.
-- For the authentication part, you can offload that to an identity provider like Firebase Auth, Auth0, Cognito, Okta, etc.
+- Backend
+  - For this you can simulate using something like a backend as a service solutions, like Firebase, AWS Amplify, Hasura, DGraph or just local with tools like Miragejs and Json-server.
+- Authentication
+  - For this you can offload that to an identity provider like Auth0, Firebase Auth, Cognito, Okta, etc.
+
+### Deliverables
+
+- Link of your public Github repo
+- Link of your Prototype/Wireframe (Figma, Whimsical, etc) (optional)
+- A live working demo of the application (Github pages, Netlify, etc) (optional)
+- A video of the application working (There's no need to voice over it, neither webcam or anything fancy. Loom is nice tool for that) (optional)
 
 ### Hints
 
@@ -39,6 +46,7 @@ Share your solution via URL to your git repository and would be cool to either d
 
 #### References
 
+- https://whimsical.com/
 - https://miragejs.com/
 - https://github.com/typicode/json-server
 - https://firebase.google.com/
